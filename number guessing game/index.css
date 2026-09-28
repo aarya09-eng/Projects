@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Poppins:wght@400;500;600&family=Rajdhani:wght@500;600&display=swap");
+
+.game {
+  text-align: center;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(135deg, #05001a, #18004d, #2b0066, #05001a);
+}
+
+h1 {
+  color: #5ee7ff;
+  margin-bottom: 50px;
+  font-size: 40px;
+  font-family: "Orbitron", sans-serif;
+}
+
+p {
+  color: #e8e9ff;
+  text-align: center;
+  font-size: 25px;
+}
+
+.levels {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+}
+
+button {
+  width: 200px;
+  padding: 12px 20px;
+
+  font-family: "Rajdhani", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+
+  color: #5ee7ff;
+  background: #10194a;
+
+  border: 2px solid #5ee7ff;
+  border-radius: 10px;
+
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #5ee7ff;
+  color: #05001a;
+  box-shadow: 0 0 15px #5ee7ff;
+}

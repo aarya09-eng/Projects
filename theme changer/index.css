@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  background-color: white;
+
+  color: #0c6fd3;
+
+  transition: 0.5s;
+}
+
+.theme {
+  background-color: rgb(4, 15, 90);
+}
+
+h1 {
+  margin-top: 450px;
+  font-size: 80px;
+}
+
+p {
+  margin-top: 150px;
+  font-size: 40px;
+
+  font-family: Arial, sans-serif;
+}
+
+button {
+  margin-top: 50px;
+  height: 140px;
+  width: 250px;
+  font-size: 30px;
+  border-radius: 15px;
+  font-family: Arial, sans-serif;
+  color: rgb(21, 173, 239);
+  font-weight: bolder;
+  border: 7px solid rgb(155, 48, 195);
+
+  background-color: #c049ec;
+}

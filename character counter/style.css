@@ -1,0 +1,89 @@
+body {
+  min-height: 100vh;
+  margin: 0;
+
+  display: flex;
+  justify-content: center;
+
+  text-align: center;
+
+  background: #020024;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 18%,
+    rgba(0, 212, 255, 1) 87%
+  );
+}
+
+#counter {
+  width: 100%;
+}
+
+h1 {
+  margin-top: 200px;
+  font-size: 70px;
+}
+
+h2 {
+  width: 180px;
+  height: 180px;
+
+  margin: 280px auto 40px;
+
+  border: 2px solid black;
+  border-radius: 50%;
+  background: linear-gradient(90deg, #0f2ab0, #3f74df);
+  border: 6px solid rgb(131, 202, 236);
+
+  display: grid;
+  place-items: center;
+
+  font-size: 60px;
+}
+
+#btn {
+  display: flex;
+  justify-content: center;
+  gap: 190px;
+}
+
+button {
+  margin-top: 300px;
+  padding: 12px 30px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  height: 140px;
+  width: 140px;
+  border-radius: 50px;
+  background-color: rgb(70, 130, 180);
+  border: 6px solid rgb(131, 202, 236);
+  font-size: 30px;
+  position: relative;
+  padding: 3px;
+  background: linear-gradient(90deg, #0f2ab0, #3f74df);
+  border-radius: 0.9em;
+  transition: all 0.4s ease;
+}
+
+button::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  border-radius: 0.9em;
+  z-index: -10;
+  filter: blur(0);
+  transition: filter 0.4s ease;
+}
+
+button:hover::before {
+  background: linear-gradient(90deg, #eeeeeeb3, #f5f4f5);
+  filter: blur(1.2em);
+}
+
+button:active::before {
+  filter: blur(0.2em);
+}
