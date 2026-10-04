@@ -1,6 +1,9 @@
 let convert = document.getElementById("convert");
 let output = document.getElementById("output");
 
+let form = document.getElementById("from");
+let to = document.getElementById("to");
+
 convert.addEventListener("click", async () => {
   let input = document.getElementById("input");
   let res = await fetch(
