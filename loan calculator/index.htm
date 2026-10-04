@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="calc">
+      <h1>Loan Calculator</h1>
+
+      <p class="feild">Loan Amount</p>
+      <input onchange="calculateloan()" type="number" />
+
+      <p class="feild">Intrest Rate %</p>
+      <input onchange="calculateloan()" type="number" />
+
+      <p class="feild">Months To Pay</p>
+      <input onchange="calculateloan()" type="number" />
+
+      <p id="loan">Monthly Payment :</p>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
